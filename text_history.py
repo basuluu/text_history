@@ -89,5 +89,3 @@ class DeleteAction(Action):
     def apply(self, str):
         str = str[:self.pos] + str[self.pos + self.length:]
         return str
-
-h = TextHistory()
